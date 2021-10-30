@@ -1,7 +1,7 @@
-var api_locParams = "lat=50.1243111&lon=14.4901953";
-// or api_locParams = "q=Paris";
-var api_appId = "YOUR_API_KEY";
-var api_lang = "sk"
+//var api_locParams = "lat=50.1243111&lon=14.4901953";
+api_locParams = "q=Camberley";
+var api_appId = "4e68220a2abe01d64c6d13beb6e6cf44";
+var api_lang = "en"
 var api_units = "metric"; 
 
 var api_params = null;
@@ -17,7 +17,7 @@ var refreshTime = 30 * 60 * 1000;
 // "auto" - by sunrise and sunset,
 // "HH-HH - like: ""22-06", from 22:00 to 06:00
 // "on" - night mode all the day :)
-var nigh_mode = "off";
+var nigh_mode = "auto";
 
 // Timezone offset - kindle doesnt report correct local time to the kindle (always it is GMT),
 // You can set custom GMT offset, in format "+08:00".
