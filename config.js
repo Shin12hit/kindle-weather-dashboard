@@ -1,5 +1,5 @@
-//var api_locParams = "lat=50.1243111&lon=14.4901953";
-api_locParams = "q=Camberley";
+var api_locParams = "lat=51.32823&lon=-0.72315";
+//api_locParams = "q=Camberley";
 var api_appId = "4e68220a2abe01d64c6d13beb6e6cf44";
 var api_lang = "en"
 var api_units = "metric"; 
